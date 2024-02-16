@@ -44,7 +44,7 @@ public class MyDataSourcePropertiesV3 {
         private Duration timeout;
         private List<String> options;
 
-        public Etc(int maxConnection, Duration timeout, @DefaultValue("DEFAULT") List<String> options) {
+        public Etc(int maxConnection, Duration timeout, List<String> options) {
             this.maxConnection = maxConnection;
             this.timeout = timeout;
             this.options = options;
